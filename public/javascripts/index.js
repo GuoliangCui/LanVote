@@ -4,7 +4,8 @@
 
 $(function () {
     var initData=null;
-    var socket = io.connect('http://192.168.0.193:3000');
+    var socket = io.connect('http://localhost:3000');
+    // var socket = io.connect('http://192.168.0.193:3000');
     var subData = null;
 
     socket.on('init', function (data) {
