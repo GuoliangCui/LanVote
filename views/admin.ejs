@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <title>安装客服管理</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <script type="text/javascript"  src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="javascripts/admin.js"></script>
+</head>
+<body>
+<div class="log">
+    说明:<br>type=1 清除全部 <br>type=2 修改指定人（A1客服1,A2客服2,A3安装1,A4安装2）
+</div>
+<textarea id="subData" style="width: 100%;" rows="10">{"type":"2","id":"1","data":"A1:里"}</textarea>
+<div style="text-align: center; margin-top: 20px;">
+    <button id="btnSub">修改</button>
+</div>
+
+<div id="dlog" style="font-size: 30px;"></div>
+</body>
+</html>

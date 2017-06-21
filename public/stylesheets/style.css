@@ -1,0 +1,46 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.list{
+  border:1px solid gray;
+  border-collapse: collapse;
+  width: 100%;
+}
+.list th{
+  text-align: center;
+}
+.list th,td{
+  border:1px solid #eee;
+  line-height: 30px;
+  cursor: pointer;
+  width: 20%;
+  text-align: center;
+}
+.list td>input{
+  width: 100%;
+  border:0px;
+  height: 30px;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+}
+input.nouse
+{
+  background-color:transparent;
+}
+input.inuse{
+  background-color: #ccc;
+}
+input.book
+{
+  background-color: transparent;
+  color:gray;
+}
+
+.log{
+  color: grey; padding: 20px;
+}
